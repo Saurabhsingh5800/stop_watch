@@ -1,0 +1,47 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(64, 3, 126);
+}
+#container{
+    color: silver;
+}
+/* for hr minute sec */
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* for buttons div  */
+#btn-block{
+    text-align: center;
+    margin-top: 30px;
+}
+/* button  */
+.btn{
+    /* text-align: center; */
+    padding: 10px  30px;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    
+}
+#start{
+    background-color: rgb(113, 233, 15);
+}
+
+#stop{
+    background-color: rgb(31, 18, 212);
+}
+
+#reset{
+    background-color: rgb(218, 14, 14);
+}
