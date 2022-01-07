@@ -10,7 +10,7 @@ function start(){
     stopwatch();
 }
 
-// this function is for sto the time
+// this function is for stop the time
 function stop(){
     timer = false;
 }
